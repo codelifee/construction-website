@@ -81,7 +81,7 @@ const HeroContent = styled.div`
         text-transform: uppercase;
         text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
         text-align: left;
-        margin-bottom: 0.8rem;
+        margin-bottom: 2rem;
     }
 
     p {
@@ -182,7 +182,7 @@ const Hero = ({slides}) => {
                                 <HeroImage src={slide.image} alt={slide.alt}/>
                                 <HeroContent>
                                     <h1>{slide.title}</h1>
-                                    <p>{slide.price}</p>
+                                    {/* <p>{slide.price}</p> */}
                                     <Button to={slide.path} primary="true"
                                     css={`max-width: 160px;`}
                                     >

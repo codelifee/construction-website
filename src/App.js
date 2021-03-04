@@ -6,6 +6,7 @@ import { SliderData } from './data/SliderData';
 import Dropdown from './components/Dropdown';
 import InfoSection from './components/InfoSection';
 import { InfoData } from './data/InfoData';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 
 
 function App() {
@@ -17,11 +18,17 @@ function App() {
 
   return (
     <>
-      <GlobalStyle />
-      <Navbar toggle={toggle} />
-      <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Hero slides={SliderData}/>
-      <InfoSection {...InfoData}/>
+      <Router>
+        <Switch>
+          <Route>
+          </Route>
+          <GlobalStyle />
+          <Navbar toggle={toggle} />
+          <Dropdown isOpen={isOpen} toggle={toggle} />
+          <Hero slides={SliderData}/>
+          <InfoSection {...InfoData}/>
+        </Switch>
+      </Router>
     </>
   );
 }

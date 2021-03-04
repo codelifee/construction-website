@@ -74,7 +74,7 @@ const NavBtn = styled.div`
 export const Navbar = ({toggle}) => {
     return (
         <Nav>
-            <Logo>건설</Logo>
+            <Logo>[주] 케이투건설</Logo>
             <MenuBars onClick={toggle}/>
             <NavMenu>
                 {menuData.map((item, index) => (
