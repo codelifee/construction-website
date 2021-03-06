@@ -47,7 +47,7 @@ const HeroSlider = styled.div`
         bottom: 0vh;
         left: 0;
         overflow: hidden;
-        opacity: 0.4;
+        opacity: 0.8;
         background: linear-gradient(
         0deg, 
         rgba(0, 0,  0,  0.2) 0%, 

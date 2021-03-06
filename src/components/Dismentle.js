@@ -61,7 +61,7 @@ const ColumnRight = styled.div`
 `
 
 
-const Demolition = ({heading, paragraphOne, 
+const Dismentle = ({heading, paragraphOne, 
     paragraphTwo, buttonLabel, reverse, image}) => {
     return (
         <Section>
@@ -80,4 +80,4 @@ const Demolition = ({heading, paragraphOne,
     )
 }
 
-export default Demolition;
+export default Dismentle;
