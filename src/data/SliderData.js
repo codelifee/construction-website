@@ -4,7 +4,7 @@ import ImageTwo from '../images/image-2.jpg'
 export const SliderData = [
     {
         title: '철거전문업체 케이투건설',
-        price: '$4,123,123',
+        description: '비계구조물해체/건물철거/석면해체업',
         path: '/contact',
         label: 'Contact Us',
         image: ImageOne,
@@ -12,7 +12,7 @@ export const SliderData = [
     },
     {
         title: '철거전문업체 케이투건설',
-        price: '$4,123,123',
+        description: '$4,123,123',
         path: '/contact',
         label: 'Contact Us',
         image: ImageTwo,
@@ -20,7 +20,7 @@ export const SliderData = [
     },
     {
         title: '철거전문업체 케이투건설',
-        price: '$4,123,123',
+        description: '$4,123,123',
         path: '/contact',
         label: 'Contact Us',
         image: ImageOne,
@@ -28,7 +28,7 @@ export const SliderData = [
     },
     {
         title: '철거전문업체 케이투건설',
-        price: '$4,123,123',
+        description: '$4,123,123',
         path: '/contact',
         label: 'Contact Us',
         image: ImageTwo,
